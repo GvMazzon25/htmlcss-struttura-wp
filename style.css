@@ -13,11 +13,15 @@
     display: table;
     clear:both;
 }
+
+.mbttm{
+    margin-bottom: 20px;
+}
+
 /*Debug*/
 
 .debug{
     height: 50px;
-    
 }
 
 .color1{
