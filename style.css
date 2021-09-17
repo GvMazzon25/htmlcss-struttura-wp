@@ -16,7 +16,12 @@
 /*Debug*/
 
 .debug{
+    height: 50px;
+    
+}
 
+.color1{
+    background-color: rgba(229, 120, 230, 1);
 }
 
 /*Header*/
