@@ -18,6 +18,14 @@
     margin-bottom: 20px;
 }
 
+.pdrgt{
+    padding-right: 20px;
+}
+
+.mbtp{
+    margin-top: 10px;
+}
+
 /*Debug*/
 
 .debug{
@@ -38,6 +46,10 @@
     background-color: rgba(171, 207, 231, 1);
 }
 
+.color4{
+    background-color: rgba(136, 1, 254, 1);
+}
+
 /*Header*/
 
 .container{
@@ -49,19 +61,25 @@
 
 .Bbox{
     background-color: rgba(0, 135, 253, 1);
-
+    width: 100%;
 }
 
-.sidebar.
+
 .mainbar{
-    float:left;
+    float: left;
 }
 
-.sidebar.{
+.sidebar{
     width: 20%;
+    float: left;
+    
 }
 
 .mainbar{
-    width: 60px;
+    width: 55%;
 }
 
+.sidebar2{
+    width: 20%;
+    float: right;
+}
