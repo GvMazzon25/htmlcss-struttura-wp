@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
@@ -16,6 +17,11 @@
 
 .mbttm{
     margin-bottom: 20px;
+}
+
+.pd-10{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .pdrgt{
@@ -53,7 +59,7 @@
 /*Header*/
 
 .container{
-    width: 80%;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -64,22 +70,16 @@
     width: 100%;
 }
 
-
-.mainbar{
+.mainbar, 
+.sidebar{
     float: left;
 }
 
 .sidebar{
     width: 20%;
-    float: left;
-    
 }
 
 .mainbar{
-    width: 55%;
+    width: 60%;
 }
 
-.sidebar2{
-    width: 20%;
-    float: right;
-}
